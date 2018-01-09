@@ -19,7 +19,6 @@
     "submit": {
       "type": "action",
       "control": "action.button",
-      "selectContains": "Login",
       "selector": ".button"
     },
     "errorMessage": {
