@@ -5,6 +5,12 @@
       "type": "string",
       "selector": "body",
       "control": "exists"
+    },
+    "clickAssignedToMe": {
+      "type": "string",
+      "selector": ".subtle",
+      "control": "property.innerText",
+      "selectContains": "Assigned to Me"
     }
   },
   "connect": []
