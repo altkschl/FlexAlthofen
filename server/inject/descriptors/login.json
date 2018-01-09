@@ -18,9 +18,9 @@
     },
     "submit": {
       "type": "action",
-      "selector": "input.button",
       "control": "action.button",
-      "selectContains": "Login"
+      "selectContains": "Login",
+      "selector": ".button"
     },
     "errorMessage": {
       "type": "string",
