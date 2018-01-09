@@ -20,6 +20,12 @@
       "type": "string",
       "selector": "[name=\"username\"]",
       "control": "text"
+    },
+    "errorMessage": {
+      "type": "string",
+      "selector": "[name=\"username\"]",
+      "control": "text",
+      "selectContains": "Your account may be disabled or blocked or the username/password you entered is incorrect."
     }
   },
   "connect": [
