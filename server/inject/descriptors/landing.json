@@ -4,8 +4,7 @@
     "isLanding": {
       "type": "identifier",
       "control": "exists",
-      "selector": "a",
-      "selectContains": "Assigned to Me"
+      "selector": "a"
     },
     "clickAssignedToMe": {
       "type": "action",
