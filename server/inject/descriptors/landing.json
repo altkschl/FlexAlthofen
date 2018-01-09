@@ -4,14 +4,14 @@
     "isLanding": {
       "type": "identifier",
       "control": "exists",
-      "selector": ".subtle",
+      "selector": "a",
       "selectContains": "Assigned to Me"
     },
     "clickAssignedToMe": {
       "type": "action",
       "control": "action.link",
       "selectContains": "Assigned to Me",
-      "selector": ".subtitle"
+      "selector": "a"
     }
   },
   "connect": []
