@@ -50,9 +50,6 @@
               "type": "string"
             }
           }
-        },
-        "update": {
-          "type": "none"
         }
       }
     }
