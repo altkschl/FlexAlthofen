@@ -11,11 +11,6 @@
       "control": "text",
       "selector": "[name=\"password\"]"
     },
-    "submit": {
-      "type": "action",
-      "selector": "body > div:nth-child(5) > form > table > tbody > tr:nth-child(6) > td > input",
-      "control": "property.innerHTML"
-    },
     "username": {
       "type": "string",
       "selector": "[name=\"username\"]",
@@ -26,6 +21,11 @@
       "selector": "[name=\"username\"]",
       "control": "text",
       "selectContains": "Your account may be disabled or blocked or the username/password you entered is incorrect."
+    },
+    "submit": {
+      "type": "action",
+      "selector": ".button",
+      "control": "action.button"
     }
   },
   "connect": [
