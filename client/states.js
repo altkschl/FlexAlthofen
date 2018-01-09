@@ -33,14 +33,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.listview', {
-        views: {
-            app: {
-                controller: 'app_listview',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.listview');
-                }
-            }
-        }
     });
 });
