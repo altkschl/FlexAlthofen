@@ -20,6 +20,12 @@
       "type": "action",
       "selector": "input.button",
       "control": "action.button"
+    },
+    "errorMessage": {
+      "type": "string",
+      "control": "property.innerText",
+      "selector": "font",
+      "selectContains": "Admin directory"
     }
   },
   "connect": [
