@@ -3,8 +3,9 @@
   "properties": {
     "isLanding": {
       "type": "identifier",
-      "selector": "body",
-      "control": "exists"
+      "control": "exists",
+      "selector": ".subtle",
+      "selectContains": "Assigned to Me"
     },
     "clickAssignedToMe": {
       "type": "action",
