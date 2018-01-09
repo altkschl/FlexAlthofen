@@ -13,8 +13,8 @@
     },
     "password": {
       "type": "string",
-      "selector": "body > div:nth-child(5) > form > table > tbody > tr:nth-child(3) > td:nth-child(2) > input[type=\"password\"]",
-      "control": "text"
+      "control": "text",
+      "selector": "[name=\"password\"]"
     },
     "submit": {
       "type": "action",
