@@ -2,14 +2,14 @@
   "type": "object",
   "properties": {
     "isLanding": {
-      "type": "string",
+      "type": "identifier",
       "selector": "body",
       "control": "exists"
     },
     "clickAssignedToMe": {
-      "type": "string",
+      "type": "action",
       "selector": ".subtle",
-      "control": "property.innerText",
+      "control": "action.link",
       "selectContains": "Assigned to Me"
     }
   },
