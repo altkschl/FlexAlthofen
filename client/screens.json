@@ -22,8 +22,8 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "listviewcool",
-      "name": "ListView-Cool",
+      "id": "listview",
+      "name": "listview",
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "listviewcool"

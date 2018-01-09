@@ -33,12 +33,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.listviewcool', {
+    }).state('app.listview', {
         views: {
             app: {
-                controller: 'app_listviewcool',
+                controller: 'app_listview',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.listviewcool');
+                    return app.templateProvider('app.listview');
                 }
             }
         }
