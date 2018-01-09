@@ -24,6 +24,11 @@
             "selector": "td",
             "control": "property.innerText",
             "selectIndex": 6
+          },
+          "isViewIssues": {
+            "type": "identifier",
+            "selector": "html",
+            "control": "url.view_all_bug_page"
           }
         }
       }
