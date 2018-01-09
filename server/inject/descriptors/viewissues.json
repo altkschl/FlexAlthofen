@@ -21,7 +21,7 @@
           },
           "Category": {
             "type": "string",
-            "selector": "tr",
+            "selector": "td",
             "control": "property.innerText",
             "selectIndex": 6
           }
