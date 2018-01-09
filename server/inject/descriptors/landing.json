@@ -9,7 +9,7 @@
     },
     "clickAssignedToMe": {
       "type": "action",
-      "selector": ".subtle",
+      "selector": ".a",
       "control": "action.link",
       "selectContains": "Assigned to Me"
     }
