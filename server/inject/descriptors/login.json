@@ -6,11 +6,6 @@
       "selector": "body",
       "control": "exists"
     },
-    "username": {
-      "type": "string",
-      "control": "property.innerText",
-      "selector": "body > div:nth-child(5) > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=\"text\"]"
-    },
     "password": {
       "type": "string",
       "control": "text",
@@ -20,6 +15,11 @@
       "type": "action",
       "selector": "body > div:nth-child(5) > form > table > tbody > tr:nth-child(6) > td > input",
       "control": "property.innerHTML"
+    },
+    "username": {
+      "type": "string",
+      "selector": "[name=\"username\"]",
+      "control": "text"
     }
   },
   "connect": [
