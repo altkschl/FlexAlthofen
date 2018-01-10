@@ -28,32 +28,6 @@
       }
     }
   },
-  "listviewissues": {
-    "type": "object",
-    "comment": "ListView",
-    "properties": {
-      "listItems": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "category": {
-              "type": "string"
-            },
-            "summary": {
-              "type": "string"
-            }
-          }
-        }
-      }
-    }
-  },
   "login": {
     "type": "object",
     "comment": "Login",
