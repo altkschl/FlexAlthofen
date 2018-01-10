@@ -36,7 +36,8 @@
       ],
       "screens": [
         "login"
-      ]
+      ],
+      "model": "login"
     }
   ]
 }
