@@ -22,13 +22,6 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "listviewissues",
-      "name": "ListViewIssues",
-      "sourceScreenId": "app.listview.listviewclassic",
-      "sourceAppId": "universaltemplates",
-      "model": "listviewissues"
-    },
-    {
       "id": "login",
       "name": "Login",
       "sourceScreenId": "app.login.logincool",

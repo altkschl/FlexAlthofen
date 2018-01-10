@@ -33,15 +33,6 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.listviewissues', {
-        views: {
-            app: {
-                controller: 'app_listviewissues',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.listviewissues');
-                }
-            }
-        }
     }).state('app.login', {
         views: {
             app: {
