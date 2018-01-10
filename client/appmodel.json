@@ -37,16 +37,16 @@
         "items": {
           "type": "object",
           "properties": {
-            "string": {
+            "id": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "action": {
-              "type": "action"
+            "category": {
+              "type": "string"
             },
-            "icon": {
+            "summary": {
               "type": "string"
             }
           }

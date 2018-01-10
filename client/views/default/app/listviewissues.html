@@ -10,12 +10,9 @@
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
         <ion-list data-comp-id="ionic-list.1">
-            <div class="item item-icon-right" collection-repeat="item in data.listItems"
-                data-comp-id="item.1" ng-repeat="item in data.listItems"
-                style="border-top: 1px solid rgba(255, 255, 255, 0);">
-                <i class="icon fa-icon {{item.icon}} positive" data-comp-id="icon.1"
-                    style="font-size: 20px;"></i>
-                <div class=" positive" data-comp-id="text.1" ng-bind="item.string">Price &amp; Availability</div>
+            <div class="item item-icon-right" collection-repeat="item in data.listItems" data-comp-id="item.1" ng-repeat="item in data.listItems" style="border-top: 1px solid rgba(255, 255, 255, 0);">
+                <i class="icon fa-icon {{item.icon}} positive" data-comp-id="icon.1" style="font-size: 20px;"></i>
+                <div class=" positive" data-comp-id="text.1" ng-bind="item.id">Price &amp; Availability</div>
             </div>
         </ion-list>
     </ion-content>

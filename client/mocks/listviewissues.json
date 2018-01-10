@@ -1,56 +1,56 @@
 {
   "listItems": [
     {
-      "string": "Price & Availability",
-      "icon": "fa-tag"
+      "id": "Price & Availability",
+      "category": "fa-tag"
     },
     {
-      "string": "Search by Part Number",
-      "icon": "fa-search"
+      "id": "Search by Part Number",
+      "category": "fa-search"
     },
     {
-      "string": "Browse Products",
-      "icon": "fa-cogs"
+      "id": "Browse Products",
+      "category": "fa-cogs"
     },
     {
-      "string": "Direct Order Entry",
-      "icon": "fa-file-text"
+      "id": "Direct Order Entry",
+      "category": "fa-file-text"
     },
     {
-      "string": "Import Order",
-      "icon": "fa-download"
+      "id": "Import Order",
+      "category": "fa-download"
     },
     {
-      "string": "View Order History",
-      "icon": "fa-history"
+      "id": "View Order History",
+      "category": "fa-history"
     },
     {
-      "string": "Quick Quote Entry",
-      "icon": "fa-calculator"
+      "id": "Quick Quote Entry",
+      "category": "fa-calculator"
     },
     {
-      "string": "SP/SD Request",
-      "icon": "fa-money"
+      "id": "SP/SD Request",
+      "category": "fa-money"
     },
     {
-      "string": "SD Claim",
-      "icon": "fa-bullhorn"
+      "id": "SD Claim",
+      "category": "fa-bullhorn"
     },
     {
-      "string": "RMA",
-      "icon": "fa-archive"
+      "id": "RMA",
+      "category": "fa-archive"
     },
     {
-      "string": "Stock Rotation",
-      "icon": "fa-repeat"
+      "id": "Stock Rotation",
+      "category": "fa-repeat"
     },
     {
-      "string": "New Part Number",
-      "icon": "fa-cog"
+      "id": "New Part Number",
+      "category": "fa-cog"
     },
     {
-      "string": "View/Print Statement",
-      "icon": "fa-print"
+      "id": "View/Print Statement",
+      "category": "fa-print"
     }
   ]
 }
